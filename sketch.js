@@ -215,7 +215,7 @@ function renderClearButton() {
 }
 
 function renderRandomButton() {
-  var randomButton = new Button(2 * width / 3, height - bh, width / 3, bh, 255, 255, 255, "Random");
+  var randomButton = new Button(2 * width / 3, height - bh, width / 3, bh, 255, 255, 255, "Create Obstacles");
   randomButton.update();
   randomButton.display();
   if (randomButton.isClicked()) {
